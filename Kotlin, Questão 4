@@ -1,0 +1,61 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+fun main() {
+
+//  Retãngulo
+ print ("Base do retângulo" )
+  val baseRet = readln().toDouble()
+ print ("Altura do retângulo:" )
+  val alturaRet = readln().toDouble()
+  val areaRet = baseRet * alturaRet
+  println("A área do retângulo é: $areaRet")
+
+    // Quadrado
+    print ("Lado do quadrado:" )
+    val lado = readln().toDouble()
+    val areaQuad = lado * lado
+    println("A área do quadrado é: $areaQuad")
+
+    // Losango
+    print ("Diagonal maior do losango:" )
+    val diagMaior = readln().toDouble()
+    print ("Diagonal menor do losango:" )
+    val diagMenor = readln().toDouble()
+    val areaLos = (diagMaior * diagMenor) / 2
+    println("A área do losango é: $areaLos")
+
+    // Trapézio
+    print ("Base maior do trapézio:" )
+    val baseMaior = readln().toDouble()
+    print ("Base menor do trapézio:" )
+    val baseMenor = readln().toDouble()
+    print ("Altura do trapézio:" )
+    val alturaTrap = readln().toDouble()
+    val areaTrap = ((baseMaior + baseMenor) * alturaTrap) / 2
+println("A área do trapézio é: $areaTrap")
+
+// paralelogramo
+    print ("Base do paralelogramo:" )
+    val basePar = readln().toDouble()
+    print ("Altura do paralelogramo:" )
+    val altpar = readln().toDouble()
+    val areaPar = basePar * altpar
+    println("A área do paralelogramo é: $areaPar")
+
+// Triângulo
+    print ("Base do triângulo:" )
+    val baseTri = readln().toDouble()
+    print ("Altura do triângulo:" )
+    val altTri = readln().toDouble()
+    val areaTri = (baseTri * altTri) / 2
+    println("A área do triângulo é: $areaTri")
+
+    // Círculo
+    print ("Raio do círculo:" )
+    val raio = readln().toDouble()
+    val areaCir = Math.PI * raio * raio
+    println("A área do círculo é: $areaCir")
+
+
+
+}
